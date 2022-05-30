@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex-1 min-h-[100vh] max-h-[200vh] items-center bg-slate-600">
+    <div class=" w-[30rem] h-[30rem] border-[10px] border-solid border-white m-auto relative p-[2rem] shadow-slate-800 rounded-full ">
+      <div class="relative w-full h-full translate-y-[-3px]">
+        <div id="hand1" class="w-[170px] h-[6px] bg-black absolute mt-[50%] origin-right rotate-[90deg] "></div>
+        <div id="hand2" class="w-[170px] h-[4px] bg-black absolute mt-[50%] origin-right rotate-[90deg] "></div>
+        <div id="hand3" class="w-[170px] h-[2px] bg-black absolute mt-[50%] origin-right rotate-[90deg] "></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+<div class="clock">
+  <div class="clock-face">
+    <div class="hand hour-hand"></div>
+    <div class="hand min-hand"></div>
+    <div class="hand second-hand"></div>
+  </div>
+</div>
